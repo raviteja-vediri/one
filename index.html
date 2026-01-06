@@ -1,4 +1,183 @@
-hello buddy
-this is automation work with jenkins 
-we are implementing webhooks for making automation
-thanks 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Pipeline Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #141e30, #243b55);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #2a5298;
+        }
+
+        .card ul {
+            list-style: none;
+        }
+
+        .card ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .pipeline {
+            background: linear-gradient(135deg, #43cea2, #185a9d);
+            color: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .pipeline h2 {
+            margin-bottom: 20px;
+        }
+
+        .pipeline-steps {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .step {
+            background: rgba(255,255,255,0.15);
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #0f2027;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer span {
+            color: #00c6ff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🚀 DevOps CI/CD Pipeline</h1>
+    <p>Automate • Build • Test • Deploy • Monitor</p>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+        <div class="card">
+            <h2>🧠 DevOps Overview</h2>
+            <p>
+                DevOps integrates development and operations to improve deployment speed,
+                reliability, and collaboration using automation and monitoring.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>🔧 DevOps Tools</h2>
+            <ul>
+                <li>Git, GitHub, GitLab</li>
+                <li>Jenkins, GitHub Actions</li>
+                <li>Docker & Kubernetes</li>
+                <li>Ansible, Terraform</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>☁️ Cloud Platforms</h2>
+            <ul>
+                <li>AWS</li>
+                <li>Microsoft Azure</li>
+                <li>Google Cloud Platform</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📊 Monitoring</h2>
+            <ul>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+                <li>ELK Stack</li>
+                <li>CloudWatch</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pipeline">
+        <h2>⚙️ CI/CD Pipeline Flow</h2>
+        <div class="pipeline-steps">
+            <div class="step">Plan</div>
+            <div class="step">Code</div>
+            <div class="step">Build</div>
+            <div class="step">Test</div>
+            <div class="step">Release</div>
+            <div class="step">Deploy</div>
+            <div class="step">Monitor</div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Deployed using <span>CI/CD Pipeline</span> | DevOps Project © 2026</p>
+</footer>
+
+</body>
+</html>
